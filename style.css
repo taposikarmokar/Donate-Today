@@ -1,3 +1,287 @@
 body {
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
+}
+
+.banner-area {
+    background-image: url(images/donation13.jpg);
+    background-size: cover;
+    height: 560px;
+}
+
+.banner-text {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.banner-text p {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.donate-amount-area {
+    padding-top: 75px;
+}
+
+.donete-header {
+    text-align: center;
+    color: black;
+}
+
+.donete-header h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.donete-header p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.amoutn-info {
+    display: flex;
+    padding-left: 170px;
+}
+
+.amoutn-text {
+    background-color: #f1f1f1;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    border: 2px solid #f1f1f1;
+}
+
+.amoutn-text:hover {
+    border: 2px solid #f77d5c;
+    background-color: rgb(214, 238, 215);
+    box-shadow: 10px 10px 10px gray;
+}
+
+.amoutn-text:hover h2 {
+    color: rgb(251, 94, 28)
+}
+
+.amoutn-text h2 {
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+}
+
+.other-amount {
+    padding-left: 200px;
+}
+
+.other-amount h4 {
+    border-bottom: 2px solid gray;
+    width: 940px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: gray;
+}
+
+.donate-button {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #f77d5c;
+    padding: 12px 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid #f77d5c;
+}
+
+.button:hover {
+    color: #f77d5c;
+    background-color: #fff;
+    border: 2px solid #f77d5c;
+
+}
+
+.donate-plan {
+    padding-top: 90px;
+}
+
+.plan-area {
+    display: flex;
+    padding-left: 120px;
+}
+
+.info-plan {
+    width: 300px;
+    height: 260px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: left;
+    margin: 15px;
+    padding: 20px;
+}
+
+.plan-a {
+    background-color: rgb(245, 171, 135)
+}
+
+.plan-b {
+    background-color: rgb(214, 238, 215)
+}
+
+.plan-c {
+    background-color: rgb(252, 215, 162)
+}
+
+
+
+
+
+.contribute-area {
+    display: flex;
+    padding-top: 105px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10px;
+}
+
+.half-width img {
+    width: 70%;
+    height: 110%;
+}
+
+.half-width h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.half-width p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+
+contribute-button {
+    text-decoration: none;
+    background-color: #f77d5c;
+    padding: 12px 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+
+
+
+.half-width2 {
+    padding: 0 140px;
+}
+
+.half-width1 img {
+    width: 60%;
+    height: 140%;
+    padding-left: 135px;
+}
+
+.half-width1 h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.half-width1 p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+.urgent-area {
+    padding-top: 200px;
+}
+
+.urgent-plan {
+    margin-left: 23px;
+    padding-top: 50px;
+}
+
+.urgent-plan img {
+    width: 350px;
+    height: 300px;
+}
+
+.urgent-text {
+    padding-top: 10px;
+}
+
+
+
+
+.updates-area {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.subs-button {
+    text-align: center;
+    position: relative;
+}
+
+.updates-area input {
+    height: 16px;
+    width: 35%;
+    border: none;
+    padding: 15px 20px;
+    background-color: beige;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.subs-button {
+    text-align: center;
+    background: blanchedalmond;
+    padding: 50px 60px;
+    width: 500px;
+    margin-left: 370px;
+}
+
+.subs-button button {
+    border: 0;
+    width: 100px;
+    height: 46px;
+    background-color: #f77d5c;
+    font-size: 16px;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
+
+.footer-text h2 {
+    color: DarkSalmon;
 }
